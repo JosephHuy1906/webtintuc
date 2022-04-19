@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Tin Tức</title>
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+    <style>
+        #area_weather {
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+        .uk-grid {
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #area_weather li {
+            padding: 5px 0;
+            list-style: none;
+        }
+
+        .uk-width-1-2,
+        .uk-width-2-4,
+        .uk-width-3-6,
+        .uk-width-5-10 {
+            width: 50%;
+        }
+
+        #area_weather img {
+            max-height: 50px;
+            vertical-align: middle;
+        }
+
+        #wt0 a {
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="top">
+        <div id="search">
+            <input type="text" class="search-txt" namr="" placeholder="Search...">
+            <a href="#" class="search-btn">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+        <div id="logo">
+            <img src="/images/facebook_cover_photo_2.png" style="width: 200px; height: 70px;" />
+        </div>
+
+    </div>
+
+
+    <br><br>
+    <div id="menu_top">
+        <ul>
+            <li><a href="/index.html">TRANG CHỦ</a> </li>
+            <li><a href="/xahoi.html">XÃ HỘI</a></li>
+            <li><a href="/phapluat.html">PHÁP LUẬT</a></li>
+            <li><a href="/giaothong.html">GIAO THÔNG</a></li>
+            <li><a href="/thegioi.html">THẾ GIỚI</a></li>
+        </ul>
+
+    </div>
+    <div id="main" style="background-color: rgb(246, 233, 233);">
+        <div id="left">
+            <div class="menu-trai">
+                <h3>Tiện ích</h3>
+                <ul>
+                    <li>
+                    <li><a href="thoiTiet.html" class="tieude">Dự báo thời tiết</a></li>
+                    <li><a href="laiSuat.html" class="tieude">Lãi suất</a></li>
+                    <li><a href="TyGia.html" class="tieude">Tỷ giá</a></li>
+                    <li><a href="giavang.html" class="tieude">Giá vàng </a></li>
+                    </li>
+                </ul>
+            </div>
+            <div id="quangcao"> <a href="trangchu/dienthoai.html"><img src="images/Untitled-1.jpg"
+                        style="object-fit: cover;" /></a> </div>
+        </div>
+
+
+
+        <div id="bottom">
+            <h2 style="font-size: 25px;">Thời tiết hôm nay</h2>
+            <hr>
+            <div id="wt0" class="col-md-12 no-padding" style="padding-left: 73px;">
+                <div class="col-md-12 no-padding wpos2-main" style="margin: 0px 0px 0px -50px;">
+                    <ul id="area_weather" class="uk-grid uk-grid-collapse"
+                        style="background-color: rgb(177, 174, 174);">
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Hà Nội</a>
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt>
+                            <span>22°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Hồ Chí Minh</a>
+                            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt>
+                            <span>29°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Cà Mau</a>
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt>
+                            <span>29.99°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Đã Nẵng</a>
+                            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt>
+                            <span>25°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Vĩnh Long</a>
+                            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt>
+                            <span>28°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Trà Vinh</a>
+                            <img src="https://openweathermap.org/img/wn/03d@2x.png" alt>
+                            <span>21°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Sóc Trăng</a>
+                            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt>
+                            <span>28°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Bắc Ninh</a>
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt>
+                            <span>22°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Thanh Hóa</a>
+                            <img src="https://openweathermap.org/img/wn/03d@2x.png" alt>
+                            <span>23.72°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Vũng Tàu</a>
+                            <img src="https://openweathermap.org/img/wn/01d@2x.png" alt>
+                            <span>27.2°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Thái Nguyên</a>
+                            <img src="https://openweathermap.org/img/wn/01d@2x.png" alt>
+                            <span>13°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Thái Bình</a>
+                            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt>
+                            <span>22°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Cần Thơ</a>
+                            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt>
+                            <span>28°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Huế</a>
+                            <img src="https://openweathermap.org/img/wn/03d@2x.png" alt>
+                            <span>25°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Quảng Ngãi</a>
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt>
+                            <span>22.4°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Lào Cai</a>
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt>
+                            <span>21°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Hải Phòng</a>
+                            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt>
+                            <span>22°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Tây Ninh</a>
+                            <img src="https://openweathermap.org/img/wn/01d@2x.png" alt>
+                            <span>4.38°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Khánh Hòa</a>
+                            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt>
+                            <span>29°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Hòa Bình</a>
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt>
+                            <span>22°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Tuyên Quang</a>
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt>
+                            <span>22°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Lạng Sơn</a>
+                            <img src="https://openweathermap.org/img/wn/03d@2x.png" alt>
+                            <span>23°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Hà Nam</a>
+                            <img src="https://openweathermap.org/img/wn/03d@2x.png" alt>
+                            <span>24°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Cao Bằng</a>
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt>
+                            <span>20°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Sơn La</a>
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt>
+                            <span>19°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Quảng Trị</a>
+                            <img src="https://openweathermap.org/img/wn/03d@2x.png" alt>
+                            <span>24°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Gia Lai</a>
+                            <img src="https://openweathermap.org/img/wn/03d@2x.png" alt>
+                            <span>24°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Hà Tĩnh</a>
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt>
+                            <span>20°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Bắc Giang</a>
+                            <img src="https://openweathermap.org/img/wn/03d@2x.png" alt>
+                            <span>24°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Kom Tum</a>
+                            <img src="https://openweathermap.org/img/wn/03d@2x.png" alt>
+                            <span>26.9°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Vĩnh Phúc</a>
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt>
+                            <span>22.2°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Yên Bái</a>
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt>
+                            <span>22.01°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Hà Giang</a>
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt>
+                            <span>21.7°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Côn Sơn</a>
+                            <img src="https://openweathermap.org/img/wn/01d@2x.png" alt>
+                            <span>15.7°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Mỹ Tho</a>
+                            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt>
+                            <span>31°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Phan Thiết</a>
+                            <img src="https://openweathermap.org/img/wn/01d@2x.png" alt>
+                            <span>30°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Quy Nhơn</a>
+                            <img src="https://openweathermap.org/img/wn/03d@2x.png" alt>
+                            <span>23.38°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Nha Trang</a>
+                            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt>
+                            <span>28°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Biên Hòa</a>
+                            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt>
+                            <span>31°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Vinh</a>
+                            <img src="https://openweathermap.org/img/wn/03d@2x.png" alt>
+                            <span>21°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Việt Trì</a>
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt>
+                            <span>22°C</span>
+                        </li>
+                        <li class="uk-width-1-2 uk-text-right">
+                            <a href="#">Nam Định</a>
+                            <img src="https://openweathermap.org/img/wn/03d@2x.png" alt>
+                            <span>32°C</span>
+                        </li>
+                    </ul><hr>
+                    <div class="fb-like" data-href="http://127.0.0.1:5500/thoiTiet.html" data-width=""
+                        data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
+                </div>
+            </div><br><br>
+
+        </div>
+        <div id="right">
+            <a href="thoiTiet.html"><img src="images/right.jpg" /></a>
+        </div>
+    </div>
+    </div>
+
+
+    <center>
+        <div class="fb-comments" data-href="http://127.0.0.1:5500/thoiTiet.html" data-width="" data-numposts="5"
+            style="width: 100%;"></div>
+    </center>
+    <div id="footer">
+        <hr color="red">
+        <h3>Thông tin liên hệ</h3>
+
+        <em> Phone: <b style="color: red;">0336406274 - 0961022334 </b> Mr Nguyễn Quang Huy<br>
+            Gmail: <u style="color: red;">josephhuy19082002@gmail.com</u><br>
+            Địa chỉ: Tổ 3, Khu phố 1, Phường Trung Mỹ Tây, Quận 12.
+        </em>
+    </div>
+    <script src="https://uhchat.net/code.php?f=e08aef"></script>
+
+</body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v9.0&appId=268862731498461&autoLogAppEvents=1"
+    nonce="DyW09nsf"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v9.0&appId=268862731498461&autoLogAppEvents=1"
+    nonce="QYFxxuAk"></script>
+
+</html>
